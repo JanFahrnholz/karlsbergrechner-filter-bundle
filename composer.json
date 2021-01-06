@@ -1,8 +1,8 @@
 {
-  "name": "janfahrnholz/karlsbergrechnerfilterbundle",
+  "name": "janfahrnholz/karlsbergrechner-filter-bundle",
   "description": "This bundle is used for filtering Products at the Landingpage",
   "type": "symfony-bundle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "autoload": {
     "psr-4": {
       "Karlsbergrechner\\FilterBundle\\": "Karlsbergrechner/FilterBundle",
