@@ -1,5 +1,5 @@
 {
-  "name": "Bundles/FilterBundle",
+  "name": "janfahrnholz/karlsbergrechnerfilterbundle",
   "description": "This bundle is used for filtering Products at the Landingpage",
   "type": "symfony-bundle",
   "version": "0.0.1",
