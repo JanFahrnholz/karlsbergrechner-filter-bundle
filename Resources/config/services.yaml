@@ -1,0 +1,10 @@
+parameters:
+    filter.status: active
+services:
+
+    _defaults:
+        autowire: true
+        autoconfigure: false
+
+    Karlsbergrechner\FilterBundle\:
+        resource: '../*'
