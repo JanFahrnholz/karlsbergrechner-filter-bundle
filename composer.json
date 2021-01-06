@@ -1,0 +1,24 @@
+{
+  "name": "Bundles/FilterBundle",
+  "description": "This bundle is used for filtering Products at the Landingpage",
+  "type": "symfony-bundle",
+  "version": "0.0.1",
+  "autoload": {
+    "psr-4": {
+      "Karlsbergrechner\\FilterBundle\\": "Karlsbergrechner/FilterBundle",
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.6.2|^7.4",
+    "../../../vendor/symfony/dependency-injection": "^3.4|^4.4",
+    "../../../vendor/symfony/framework-bundle":     "^3.4|^4.4",
+    "../../../vendor/symfony/config":               "^3.4|^4.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.4.3"
+  },
+  "extra": {
+    "class": "Karlsbergrechner\\FilterBundle\\"
+  }
+}
